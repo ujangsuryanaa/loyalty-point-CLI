@@ -65,7 +65,7 @@ function calculateLoyaltyPoints(orders) {
     totalItems += orderTotalItems;
   }
 
-  // Menghitung total poin berdasarkan formula yang diberikan
+  // Menghitung total poin berdasarkan data yang diberikan
   if (totalAmountTransactions < 1000000) {
     totalPoints = totalAmountTransactions / 10000;
   } else if (totalAmountTransactions < 10000000) {
@@ -80,7 +80,7 @@ function calculateLoyaltyPoints(orders) {
     totalPoints = totalAmountTransactions / 10000 * 1.4;
   }
 
-  // Menampilkan hasil perhitungan dengan format output yang diinginkan
+  // hasil perhitungan
   console.log({
     totalAmountTransaction: totalAmountTransactions,
     totalPoints: totalPoints,
@@ -88,5 +88,5 @@ function calculateLoyaltyPoints(orders) {
   });
 }
 
-// Menjalankan fungsi calculateLoyaltyPoints dengan input orders
+// Untuk Menjalankan fungsi calculateLoyaltyPoints dengan input orders
 calculateLoyaltyPoints(orders);
