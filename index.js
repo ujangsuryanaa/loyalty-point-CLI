@@ -88,5 +88,5 @@ function calculateLoyaltyPoints(orders) {
   });
 }
 
-// Untuk Menjalankan fungsi calculateLoyaltyPoints dengan input orders
+// Untuk Menjalankan fungsi calculateLoyaltyPoints dengan input orders hanya perlu mengetikan node index.js di terminal
 calculateLoyaltyPoints(orders);
